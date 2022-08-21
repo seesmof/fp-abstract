@@ -26,7 +26,7 @@ body {
   align-items: center;
 }
 .nav .container .nav-left .logo {
-  height: 2rem;
+  height: 2.1rem;
   display: inline-block;
   margin-bottom: 0.6rem;
   margin-right: 0.3rem;
@@ -34,7 +34,7 @@ body {
 .nav .container .nav-left .text {
   border-left: 2px solid var(--wht);
   color: var(--wht);
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   display: inline-block;
   padding-left: 0.8rem;
   font-weight: 400;
@@ -53,7 +53,7 @@ body {
 }
 .nav .container .nav-right .request {
   border: 1px solid var(--wht);
-  background: rgba(0, 0, 0, 0);
+  background: #191a1b;
   color: var(--wht);
 }
 .nav .container .nav-right .sign-in {
@@ -122,13 +122,41 @@ body {
 }
 
 /* footer */
-footer {
+.footer {
+  display: flex;
+  justify-content: space-around;
   background: var(--blk);
+  color: var(--wht);
   height: 420px;
 }
-footer .footer-content {
-  margin: 2rem 6rem;
+.footer .links-container {
+  flex-direction: column;
+  margin-top: 3rem;
 }
-footer .footer-content .footer-content-section .heading {
-  font-size: 24px;
+.footer .links-container h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.footer .links-container .heading-sm {
+  font-weight: 700;
+  margin-top: 1rem;
+}
+.footer .links-container a {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  font-weight: 500;
+}
+.footer .links-container a:hover {
+  text-decoration: underline;
+}
+.footer .links-container:last-of-type {
+  margin-top: 14rem;
+  font-size: 20px;
+  font-weight: 600;
+}
+.footer .links-container:last-of-type svg {
+  width: 130px;
+  margin-bottom: 1rem;
 }/*# sourceMappingURL=style.css.map */

@@ -25,7 +25,7 @@ body {
       align-items: center;
 
       .logo {
-        height: 2rem;
+        height: 2.1rem;
         display: inline-block;
         margin-bottom: 0.6rem;
         margin-right: 0.3rem;
@@ -33,7 +33,7 @@ body {
       .text {
         border-left: 2px solid var(--wht);
         color: var(--wht);
-        font-size: 1.4rem;
+        font-size: 1.5rem;
         display: inline-block;
         padding-left: 0.8rem;
         font-weight: 400;
@@ -57,7 +57,7 @@ body {
 
       .request {
         border: 1px solid var(--wht);
-        background: rgba(0, 0, 0, 0);
+        background: #191a1b;
         color: var(--wht);
       }
 
@@ -141,17 +141,48 @@ body {
 }
 
 /* footer */
-footer {
+.footer {
+  display: flex;
+  justify-content: space-around;
   background: var(--blk);
+  color: var(--wht);
   height: 420px;
 
-  .footer-content {
-    margin: 2rem 6rem;
+  .links-container {
+    flex-direction: column;
+    margin-top: 3rem;
 
-    .footer-content-section {
-      .heading {
-        font-size: 24px;
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+
+    .heading-sm {
+      font-weight: 700;
+      margin-top: 1rem;
+    }
+
+    a {
+      display: block;
+      color: inherit;
+      text-decoration: none;
+      font-weight: 500;
+
+      &:hover {
+        text-decoration: underline;
       }
+    }
+  }
+
+  .links-container:last-of-type {
+    margin-top: 14rem;
+    font-size: 20px;
+    font-weight: 600;
+
+    svg {
+      width: 130px;
+      margin-bottom: 1rem;
     }
   }
 }
