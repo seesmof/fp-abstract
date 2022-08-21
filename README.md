@@ -35,7 +35,7 @@ Basic help center website called Abstract. The design was taken from frontend pr
 
 - [Live View](https://seesmof.github.io/fp-abstract/)
 
-![Website Page](./img/Registration-Form.png)
+![Website Page](./img/Abstract.png)
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
