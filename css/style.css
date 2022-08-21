@@ -9,7 +9,7 @@
 /* navbar */
 .nav {
   background: var(--blk);
-  height: 88px;
+  padding: 1.1rem;
 }
 .nav .container {
   display: flex;
@@ -22,7 +22,7 @@
   align-items: center;
 }
 .nav .container .nav-left .logo {
-  height: 32px;
+  height: 2rem;
   display: inline-block;
   margin-bottom: 0.6rem;
   margin-right: 0.3rem;
