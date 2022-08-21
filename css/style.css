@@ -6,6 +6,10 @@
   --wht: #fff;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 /* navbar */
 .nav {
   background: var(--blk);
