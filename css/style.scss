@@ -6,6 +6,9 @@
   --wht: #fff;
 }
 
+body {
+}
+
 /* navbar */
 .nav {
   background: var(--blk);
@@ -131,6 +134,22 @@
           text-decoration: underline;
           text-decoration-thickness: 2px;
         }
+      }
+    }
+  }
+}
+
+/* footer */
+footer {
+  background: var(--blk);
+  height: 420px;
+
+  .footer-content {
+    margin: 2rem 6rem;
+
+    .footer-content-section {
+      .heading {
+        font-size: 24px;
       }
     }
   }

@@ -115,4 +115,16 @@
 .main .content-block .content-right a:hover {
   text-decoration: underline;
   text-decoration-thickness: 2px;
+}
+
+/* footer */
+footer {
+  background: var(--blk);
+  height: 420px;
+}
+footer .footer-content {
+  margin: 2rem 6rem;
+}
+footer .footer-content .footer-content-section .heading {
+  font-size: 24px;
 }/*# sourceMappingURL=style.css.map */
